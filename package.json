@@ -1,0 +1,26 @@
+{
+  "name": "Burger_Eater",
+  "version": "1.0.0",
+  "description": "This application is a burger logger powered by MySQL, Node, Express, Handlebars and a homemade ORM. Following the MVC pattern, this app uses Node and MySQL to query and route data in the app and Handlebars to generate  the HTML you see.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akorjeski/Burger_Eater.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akorjeski/Burger_Eater/issues"
+  },
+  "homepage": "https://github.com/akorjeski/Burger_Eater#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
